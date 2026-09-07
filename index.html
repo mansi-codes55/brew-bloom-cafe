@@ -1,29 +1,148 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Brew & Bloom Cafe|Home</title>
-        <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="icon" href="images/coffee-cup.svg">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css">
 
 </head>
+
 <body>
     <nav class=" w-full  bg-amber-950  ">
         <div class="max-w-7xl mx-auto px-4 py-3 flex flex-col md:flex-row item-center justify-between gap-3 ">
-             <div class=" flex item-center">
-              <img src="images/coffee-cup.svg" class="w-[50px] md:w-[60px]" alt="Brew & Bloom Cafe">
-        <h1 class=" text-lg md-text-xl text-white mt-5 md:mt-7  ">Brew & Bloom Cafe</h1>
+            <div class=" flex item-center">
+                <img src="images/coffee-cup.svg" class="w-[50px] md:w-[60px]" alt="Brew & Bloom Cafe">
+                <h1 class=" text-lg md-text-xl text-white mt-5 md:mt-7  ">Brew & Bloom Cafe</h1>
+            </div>
+
+            <div class="text-white text-base md-text-xl pt-7 flex gap-5">
+                <a href="index.html" class="hover:text-amber-400 transition" >Home</a>
+                <a href="menu.html" class="hover:text-amber-400 transition" >Menu</a>
+                <a href="gallery.html" class="hover:text-amber-400 transition" >Gallery</a>
+                <a href="contact.html" class="hover:text-amber-400 transition" >Contact</a>
+
+            </div>
         </div>
-        <div class="text-white text-base md-text-xl pt-7">
-            <a href="index.html">Home</a>
-            <a href="menu.html">Menu</a>
-            <a href="gallery.html">Gallery</a>
-            <a href="contact.html">Contact</a>
-            
-        </div>
-        </div>
-       
-      
     </nav>
+    <section class="w-full bg-white pb-10">
+        <div class="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-start">
+            <div class="flex flex-col gap-4 py-10 md:py-20">
+                <h1 class="text-lg text-amber-900 font-semibold">Welcome to Brew & Bloom</h1>
+                <h2 class="text-5xl font-bold text-amber-800 ">Fresh Coffee,<br> <span class="text-amber-600">Cozy
+                        Moments</span></h2>
+                <p class="text-lg max-w-xl">Enjoy freshly brewed coffee, delicious bites, and warm moments in a cozy atmosphere.
+                </p>
+                <a href="menu.html"
+                    class="bg-amber-900 text-white rounded-xl w-[200px] py-3 text-center hover:bg-amber-800">Explore
+                    Menu</a>
+            </div>
+
+            <div class="mt-4">
+                <img src="images/hero-cafe.jpg"
+                    class="w-full md:w-[500px] h-[350px] md:h-[450px] rounded-xl object-cover mt-0 md:mt-4" alt="">
+            </div>
+        </div>
+    </section>
+    <section class="bg-amber-100 w-full pb-10">
+        <div class="max-w-7xl mx-auto py-4">
+            <h1 class="text-center text-4xl  md:text-5xl font-bold text-amber-900 ">Our Popular Menu</h1>
+        </div>
+        <div class="max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 py-4">
+            <div class="border rounded-2xl border-none bg-white shadow-md overflow-hidden ">
+                <img src="images/cappuccino.jpg" class="w-full h-48 object-cover rounded-lg" alt="">
+                <div class="p-4 flex justify-between items-center">
+                    <h3 class="text-lg font-semibold text-amber-900">Cappuccino</h3>
+                   <span class="text-amber-900 font-bold text-lg ">₹149</span>
+                </div>
+            </div>
+            <div class="border rounded-2xl border-none bg-white shadow-md overflow-hidden ">
+                <img src="images/iced-latte.jpg" class="w-full h-48 object-cover rounded-lg" alt="">
+                <div class="p-4 flex justify-between items-center">
+                    <h3 class="text-lg font-semibold text-amber-900">Iced latte</h3>
+                <span class="text-amber-900 font-bold text-lg ">₹169</span>
+                </div>
+            </div>
+            <div class="border rounded-2xl border-none bg-white shadow-md overflow-hidden">
+                <img src="images/chocolate-cake.jpg" class="w-full h-48 object-cover rounded-lg " alt="">
+                <div class="p-4 flex justify-between items-center">
+                    <h3 class="text-lg font-semibold text-amber-900">Chocolate Cake</h3>
+                <span class="text-amber-900 font-bold text-lg ">₹189</span>
+                </div>
+            </div>
+            <div class="border rounded-2xl border-none bg-white shadow-md overflow-hidden">
+                <img src="images/butter-croissant.jpg" class="w-full h-48 object-cover rounded-lg" alt="">
+             <div class="p-4 flex justify-between items-center">
+                   <h3 class="text-lg font-semibold text-amber-900">Butter Croissant</h3> 
+                  <span class="text-amber-900 font-bold text-lg ">₹129</span>
+             </div>
+            </div>
+
+        </div>
+       <div class="text-center py-4">
+         <a href="menu.html"class="inline-block bg-amber-900 text-white px-6 py-3 rounded-xl ">View Full Menu</a>
+       </div>
+    </section>
+    <section class="w-full bg-white">
+        <div class="text-center max-w-7xl py-4 mx-auto ">
+            <h1 class="text-amber-900 text-2xl md:text-3xl  font-bold ">Why Choose Brew & Bloom?</h1>
+            <p class="py-2 text-md md:text-lg">We serve more than just coffee — we create warm moments, fresh flavors, and a cozy place to relax.</p>
+        </div>
+        <div class="max-w-7xl mx-auto flex flex-wrap gap-6 ">
+            <div class="shadow-md bg-amber-100 w-full md:w-[48%] lg:w-[23%] px-2 md:px-4 lg:px-6 py-2 md:py-4 lg:py-6 text-center rounded-xl ">
+                <div class="w-[100px] h-[70px] bg-white mx-auto rounded-xl text-center py-2 my-4 ">
+                    <i class="fa-solid fa-mug-hot text-5xl text-amber-900 "></i>
+                </div>
+                <div>
+                    <h3 class="text-amber-900 font-semibold text-sm md:text-lg lg:text-xl mb-2 ">Freshly Brewed</h3>
+                 <p>Freshly brewed coffee made from quality beans for a rich and delicious taste.</p>
+                </div>
+                 
+                 
+            </div>
+
+            <div class="shadow-md bg-amber-100 w-full md:w-[48%] lg:w-[23%] px-2 md:px-4 lg:px-6 py-2 md:py-4 lg:py-6 text-center rounded-xl ">
+                <div class="w-[100px] h-[70px] bg-white mx-auto rounded-xl text-center py-2 my-4 ">
+                    <i class="fa-solid fa-leaf text-5xl text-amber-900 "></i>
+                </div>
+                <div>
+                    <h3 class="text-amber-900 font-semibold text-sm md:text-lg lg:text-xl mb-2 ">Quality Ingredients</h3>
+                 <p>We use fresh and carefully selected ingredients in every drink and bite.</p>
+                </div>
+                 
+                 
+            </div>
+
+            <div class="shadow-md bg-amber-100 w-full md:w-[48%] lg:w-[23%] px-2 md:px-4 lg:px-6 py-2 md:py-4 lg:py-6 text-center rounded-xl ">
+                <div class="w-[100px] h-[70px] bg-white mx-auto rounded-xl text-center py-2 my-4 ">
+                    <i class="fa-solid fa-house-user text-5xl text-amber-900 "></i>
+                </div>
+                <div>
+                    <h3 class="text-amber-900 font-semibold text-sm md:text-lg lg:text-xl mb-2 ">Cozy Atmosphere</h3>
+                 <p>A warm and welcoming space where you can relax and feel at home.</p>
+                </div>
+                 
+                 
+            </div>
+
+            <div class="shadow-md bg-amber-100 w-full md:w-[48%] lg:w-[23%] px-2 md:px-4 lg:px-6 py-2 md:py-4 lg:py-6 text-center rounded-xl ">
+                <div class="w-[100px] h-[70px] bg-white mx-auto rounded-xl text-center py-2 my-4 ">
+                   <i class="fa-solid fa-heart text-5xl text-amber-900 "></i>
+                </div>
+                <div>
+                    <h3 class="text-amber-900 font-semibold text-sm md:text-lg lg:text-xl mb-2 ">Made With Love</h3>
+                 <p>Every cup and every bite is prepared with care to make your visit special.</p>
+                </div>
+                 
+                 
+            </div>
+
+           
+        </div>
+    </section>
 </body>
+
 </html>
